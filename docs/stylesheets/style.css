@@ -1,14 +1,145 @@
-html, body {
+body{
+  margin: 0;
+  background-color: #F1F8FF;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+nav ul li a{
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: #313131;
+  transition: 0.3s;
+  line-height: 48px;
+  
+  
+}
+
+nav ul li a:hover{
+  color: #2E5D9D;
+  border-bottom: #2E5D9D solid 3px;
+}
+.logo a:hover{
+  border-bottom: none;
+}
+
+
+.logo a{
+  font-size: 2.2rem;
+  color: #2E5D9D;
+  
+}
+
+
+.blå{
+  color: #8EB3E5;
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 6px;
+}
+nav{
+  background-color: #FFFFFF;
+  padding: 0.3rem;
+  height: 90px;
+  
+}
+
+.sidebar{
+  position: fixed;
+  left: 0;
+  width: 450px;
+  height: 100%;
+  background: #8eb4e53a;
+  margin: 0;
+}
+
+
+.sidebar ul{
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  
+}
+
+.sidebar ul li a{
+  display: block;
+  line-height: 95px;
+  font-size: 1.7rem;
+  color: #313131;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 40px;
+  color: #313131;
+  
+}
+.sidebar ul li a:hover{
+  background: #8EB3E5;
+}
+
+.sidebar header{
+  text-align: center;
+  line-height: 70px;
+  background: #8eb4e55e;
+  font-size: 25px;
+  height: 100px;
+  padding-top: 30px;
+}
+
+.pil{
+  height: 20px;
+  width: auto;
+}
+
+.sidebar2{
+  position: fixed;
+  right: 0;
+  width: 350px;
+  height: 100%;
+  background: #2e5c9d17;
+  margin: 0;
+  
+}
+
+.med{
+  background: #C8DDFA;
+  height: 55px;
+  border-bottom: solid 3px #313131;
+  width: 300px;
+  margin-left: 20px;
+  margin-top: 60px;
+}
+
+.med h1{
+  padding-top: 10px;
+  margin: 0;
+  
+}
+.med ul{
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+}
+.med ul li{
   margin: 0;
   padding: 0;
+  
+}
+.med img{
+  height: 35px;
+  padding-top: 11px;
+  transform: translate(-80%);
+
 }
 
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 2rem;
+.med h1{
+  font-weight: 300;
+  transform: translate(-10%);
+  font-size: 26px;
+  margin-top: 2px ;
 }
 
-.container {
-  width: 80%;
-  margin: 0 auto;
-}
