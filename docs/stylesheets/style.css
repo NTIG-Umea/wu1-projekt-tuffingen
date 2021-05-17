@@ -63,6 +63,7 @@ nav{
   padding: 0;
   margin: 0;
   
+  
 }
 
 .sidebar ul li a{
@@ -75,6 +76,7 @@ nav{
   box-sizing: border-box;
   padding-left: 40px;
   color: #313131;
+  text-decoration: none;
   
 }
 .sidebar ul li a:hover{
@@ -142,4 +144,63 @@ nav{
   font-size: 26px;
   margin-top: 2px ;
 }
+.schema{
+  height: 60px;
+  width: auto;
+  float: right;
+}
 
+@media only screen and (max-width: 1280px){
+
+  nav{
+    height: 74px;
+
+  }
+  .logo a{
+    font-size: 1.9rem;
+    
+  }
+
+  nav ul li{
+    transform: translate(0%, -17%);
+  }
+  
+  .sidebar{
+    width: 300px;
+  }
+  .sidebar header{
+    height: 60px;
+    
+  }
+
+  .sidebar header h1{
+    font-size: 25px;
+    font-weight: 300;
+    color: #313131;
+    transform: translate(0%, -50%);
+  }
+  .sidebar ul li a{
+    font-size: 1.2rem;
+    line-height: 60px;
+}
+  .pil{
+    height: 13px;
+    transform: translate(0, 9%);
+}
+  .sidebar2{
+    width: 240px;
+  }
+  .med{
+    width: 200px;
+    height: 40px;
+  }
+  .med img{
+    height: 25px;
+    transform: translate(-110%, -8%);
+  }
+   .med ul li h1{
+    font-size: 1.3rem;
+    transform: translate(-10%, -15%);
+  }
+
+} 
