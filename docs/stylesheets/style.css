@@ -9,7 +9,7 @@ nav ul li a{
   text-decoration: none;
   font-size: 1.4rem;
   color: #313131;
-  transition: 0.3s;
+  transition: 0.1s;
   line-height: 48px;
   
   
@@ -17,11 +17,9 @@ nav ul li a{
 
 nav ul li a:hover{
   color: #2E5D9D;
-  border-bottom: #2E5D9D solid 3px;
+  
 }
-.logo a:hover{
-  border-bottom: none;
-}
+
 
 
 .logo a{
@@ -62,9 +60,9 @@ nav{
   list-style: none;
   padding: 0;
   margin: 0;
-  
-  
+    
 }
+
 
 .sidebar ul li a{
   display: block;
@@ -77,7 +75,7 @@ nav{
   padding-left: 40px;
   color: #313131;
   text-decoration: none;
-  
+  transition: 0.1s;
 }
 .sidebar ul li a:hover{
   background: #8EB3E5;
@@ -144,10 +142,42 @@ nav{
   font-size: 26px;
   margin-top: 2px ;
 }
-.schema{
-  height: 60px;
-  width: auto;
-  float: right;
+
+.arb{
+  background: #C8DDFA;
+  margin: auto;
+  transform: translate(-0%, 100%);
+  height: 39px;
+  width: 36rem;
+  border-bottom: #313131 2px solid;
+}
+
+.arb h1{
+  transform: translate(0, 5%);
+  font-weight: 300;
+  font-size: 28px;
+  margin: 0;
+  
+}
+.arb ul li{
+  text-decoration: none;
+  list-style: none;
+  font-size: 20px;
+  line-height: 70px;
+  margin: 0;
+
+}
+.arb ul{
+  background-color: #E3EEFD;
+  transform: translate(0, 5.4%);
+  margin: 0;
+  padding-left: 0;
+  
+}
+
+
+.b{
+  background-color: #d2e1f765;
 }
 
 @media only screen and (max-width: 1280px){
@@ -192,7 +222,7 @@ nav{
   }
   .med{
     width: 200px;
-    height: 40px;
+    height: 35px;
   }
   .med img{
     height: 25px;
@@ -200,7 +230,9 @@ nav{
   }
    .med ul li h1{
     font-size: 1.3rem;
-    transform: translate(-10%, -15%);
+    transform: translate(-16%, -15%);
+    padding-top: 8px;
+    
   }
 
 } 
