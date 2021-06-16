@@ -7,11 +7,11 @@ body{
 
 nav ul li a{
   text-decoration: none;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   color: #313131;
   transition: 0.1s;
   line-height: 48px;
-  
+  padding-right: 20px;
   
 }
 
@@ -19,7 +19,21 @@ nav ul li a:hover{
   color: #2E5D9D;
   
 }
-
+nav ul{
+  list-style: none;
+  display: flex;
+  padding-top: 6px;
+  justify-content: space-between;
+  
+}
+nav{
+  background-color: #FFFFFF;
+  padding: 0.3rem;
+  height: 90px;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
 
 
 .logo a{
@@ -32,18 +46,9 @@ nav ul li a:hover{
 .blå{
   color: #8EB3E5;
 }
-nav ul{
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  padding-top: 6px;
-}
-nav{
-  background-color: #FFFFFF;
-  padding: 0.3rem;
-  height: 90px;
-  
-}
+
+
+
 
 .sidebar{
   position: fixed;
@@ -60,7 +65,8 @@ nav{
   list-style: none;
   padding: 0;
   margin: 0;
-    
+  padding-top: 130px;
+  
 }
 
 
@@ -81,14 +87,7 @@ nav{
   background: #8EB3E5;
 }
 
-.sidebar header{
-  text-align: center;
-  line-height: 70px;
-  background: #8eb4e55e;
-  font-size: 25px;
-  height: 100px;
-  padding-top: 30px;
-}
+
 
 .pil{
   height: 20px;
@@ -102,7 +101,7 @@ nav{
   height: 100%;
   background: #2e5c9d17;
   margin: 0;
-  
+  padding-top: 100px;
 }
 
 .med{
@@ -146,16 +145,16 @@ nav{
 .arb{
   background: #C8DDFA;
   margin: auto;
-  transform: translate(-0%, 100%);
-  height: 39px;
-  width: 36rem;
+  transform: translate(-20%, 200%);
+  height: 56px;
+  width: 50rem;
   border-bottom: #313131 2px solid;
 }
 
 .arb h1{
-  transform: translate(0, 5%);
-  font-weight: 300;
-  font-size: 28px;
+  transform: translate(5%, 12%);
+  font-weight: 500;
+  font-size: 35px;
   margin: 0;
   
 }
@@ -165,19 +164,123 @@ nav{
   font-size: 20px;
   line-height: 70px;
   margin: 0;
-
+  padding-left: 20px;
 }
 .arb ul{
   background-color: #E3EEFD;
-  transform: translate(0, 5.4%);
+  transform: translate(0, 11%);
   margin: 0;
   padding-left: 0;
   
 }
 
+.res{
+  background: #C8DDFA;
+  margin: auto;
+  transform: translate(-20%, 200%);
+  height: 56px;
+  width: 50rem;
+  border-bottom: #313131 2px solid;
+}
+
+.res h1{
+  transform: translate(5%, 12%);
+  font-weight: 500;
+  font-size: 35px;
+  margin: 0;
+  
+}
+.res ul li{
+  text-decoration: none;
+  list-style: none;
+  font-size: 20px;
+  line-height: 70px;
+  margin: 0;
+
+}
+.res ul{
+  background-color: #E3EEFD;
+  transform: translate(0, 11%);
+  margin: 0;
+  padding-left: 0;
+  
+}
+
+.schema{
+  background: #C8DDFA;
+  margin: auto;
+  transform: translate(-20%, 200%);
+  height: 56px;
+  width: 50rem;
+  border-bottom: #313131 2px solid;
+}
+
+.schema h1{
+  transform: translate(5%, 12%);
+  font-weight: 500;
+  font-size: 35px;
+  margin: 0;
+  
+}
+.schema ul li{
+  text-decoration: none;
+  list-style: none;
+  font-size: 20px;
+  line-height: 70px;
+  margin: 0;
+
+}
+.schema ul{
+ 
+  transform: translate(0, 11%);
+  margin: 0;
+  padding-left: 0;
+  
+}
+
+.sche{
+  width: 50rem;
+  transform: translate(0, -8%);
+}
+
+
+
+
+.container{
+  padding-top: 17rem;
+}
+.container2{
+  padding-top: 7rem;
+}
+
+
+
+
+
+
+
+
+
 
 .b{
   background-color: #d2e1f765;
+}
+
+@media only screen and (min-width: 375px){
+.log {
+  display: none;
+}
+.profil {
+  display: none;
+}
+.menu {
+  display: none;
+}
+.mail {
+  display: none;
+}
+
+
 }
 
 @media only screen and (max-width: 1280px){
@@ -235,4 +338,86 @@ nav{
     
   }
 
+  .arb{
+    width: 34rem;
+    height: 44px;
+  }
+  .arb h1{
+    font-size: 25px;
+  }
+
+  .schema h1{
+    font-size: 25px;
+  }
+  .res h1{
+    font-size: 25px;
+  }
+
+  .schema{
+    width: 34rem;
+    height: 39px;
+  }
+
+  .res{
+    width: 34rem;
+    height: 40px;
+  }
+
+  .sche{
+    width: 34rem;
+    
+  }
+  main{
+    padding-left: 200px;
+    padding-top: 30px;
+  }
+  .container{
+    padding-top: 13rem;
+  }
+  .container2{
+    padding-top: 4rem;
+  }
+  .arb ul li{
+    font-size: 18px;
+  }
 } 
+@media only screen and (max-width: 375px){
+.sidebar{
+  display: none;
+}
+.sidebar2{
+  display: none;
+}
+
+.schema{
+  display: none;
+}
+.logo a{
+  display: none;
+}
+.log{
+  height: 50px;
+  transform: translate(-60%, -21%);
+}
+.menu{
+  height: 30px;
+  padding-right: 140px;
+  width: auto;
+}
+.mail{
+  height: 30px;
+  transform: translate(-308px);
+}
+.profil{
+  height: 30px;
+  transform: translate(-342px);
+}
+nav ul li a{
+  display: none;
+}
+nav{
+  height: 54px;
+  
+}
+
+}
