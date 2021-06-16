@@ -4,15 +4,11 @@ Författare och datum.
 
 ## Inledning
 
-Här beskriver du kortfattat arbetets syfte/mål, arbetssätt, genomförande.
+Min plan var att göra en redesign på schoolsoft och koda om sidan i html och css kod, sidan ska se bra ut och fixa det som jag tycker att schoolsoft saknar, det viktigaste enligt mig är att sidan är responsiv, speciellt som mobilversion.
 
 ## Bakgrund
 
-Redovisa arbetets olika delar. Så att läsaren förstår vad du gjort och hur.
-
-Använd gärna bilder för att illustrera.
-
-För att lägga till bilder i markdown. Bilderna kan du ladda upp med Git som vanligt, länka dem med url eller filnamnet.
+Jag började med att fundera över själva designen över och vad som behövde ändras från schoolsoft sida, det jag kom fram till var att jag ville bara allmänt skära ner på mängden text och information men samtidigt behålla relativt samma layout. Min plan var göra sidebaren till dropdown menyer och även använda mig mycket utav dropdown menyer för att få undan mycket information när man kommer till sidan men man kan fortfarande komma åt informationen lätt genom att trycka på en knapp. 
 
 ```
 ![GitHub Logo](/images/logo.png)
