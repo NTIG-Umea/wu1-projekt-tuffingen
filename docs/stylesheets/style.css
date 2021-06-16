@@ -11,7 +11,7 @@ nav ul li a{
   color: #313131;
   transition: 0.1s;
   line-height: 48px;
-  padding-right: 20px;
+  padding-right: 170px;
   
 }
 
@@ -22,8 +22,10 @@ nav ul li a:hover{
 nav ul{
   list-style: none;
   display: flex;
-  padding-top: 6px;
+  padding-top: 0px;
   justify-content: space-between;
+  float: right;
+  transform: translate(0, -40px);
   
 }
 nav{
@@ -35,13 +37,15 @@ nav{
   z-index: 100;
 }
 
-
 .logo a{
-  font-size: 2.2rem;
   color: #2E5D9D;
-  
 }
 
+
+.logo {
+  font-size: 2.4rem;
+  transform: translate(5%, 42%);
+}
 
 .blå{
   color: #8EB3E5;
@@ -243,6 +247,37 @@ nav{
   transform: translate(0, -8%);
 }
 
+.dag{
+  background: #C8DDFA;
+  margin: auto;
+  transform: translate(-20%, 200%);
+  height: 56px;
+  width: 50rem;
+  border-bottom: #313131 2px solid;
+}
+
+.dag h1{
+  transform: translate(5%, 12%);
+  font-weight: 500;
+  font-size: 35px;
+  margin: 0;
+  
+}
+.dag ul li{
+  text-decoration: none;
+  list-style: none;
+  font-size: 20px;
+  line-height: 70px;
+  margin: 0;
+  padding-left: 20px;
+}
+.dag ul{
+  background-color: #E3EEFD;
+  transform: translate(0, 11%);
+  margin: 0;
+  padding-left: 0;
+  
+}
 
 
 
@@ -266,21 +301,22 @@ nav{
   background-color: #d2e1f765;
 }
 
-@media only screen and (min-width: 375px){
-.log {
+@media only screen and (min-width: 376px){
+.profil{
   display: none;
 }
-.profil {
+.mail{
   display: none;
 }
-.menu {
+.log{
   display: none;
 }
-.mail {
+.menu{
   display: none;
 }
-
-
+.dag{
+  display: none;
+}
 }
 
 @media only screen and (max-width: 1280px){
@@ -345,7 +381,13 @@ nav{
   .arb h1{
     font-size: 25px;
   }
-
+  .dag{
+    width: 34rem;
+    height: 44px;
+  }
+  .dag h1{
+    font-size: 25px;
+  }
   .schema h1{
     font-size: 25px;
   }
@@ -397,20 +439,21 @@ nav{
 }
 .log{
   height: 50px;
-  transform: translate(-60%, -21%);
+  transform: translate(-585%, 69%);
 }
 .menu{
   height: 30px;
-  padding-right: 140px;
   width: auto;
+  transform: translate(-15px, 45px);
 }
 .mail{
   height: 30px;
-  transform: translate(-308px);
+  transform: translate(945%, 12px);
+  
 }
 .profil{
   height: 30px;
-  transform: translate(-342px);
+  transform: translate(205px, 12px);
 }
 nav ul li a{
   display: none;
@@ -418,6 +461,22 @@ nav ul li a{
 nav{
   height: 54px;
   
+}
+.arb{
+  width: 280px;
+  transform: translate(-60%, 250%);
+}
+.res{
+  width: 280px;
+  transform: translate(-60%, 250%);
+}
+.dag{
+  width: 280px;
+  transform: translate(-60%, 350%);
+
+}
+.dag ul{
+  transform: translate(0, 5.6%);
 }
 
 }
